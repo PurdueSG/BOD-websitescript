@@ -1,4 +1,10 @@
-﻿namespace BODwebsite
+﻿/*  2015(c) Socrates Wong
+ *  Permissiable use granted under Attribution-NonCommercial-NoDerivatives 4.0 International, written permission required other usage.   
+ * 
+ * 
+ */
+
+namespace BODwebsite
 {
     partial class Form1
     {

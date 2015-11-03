@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*  2015(c) Socrates Wong
+ *  Permissiable use granted under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International, written permission required other usage.   
+ * 
+ * 
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +16,7 @@ namespace BODwebsite
      static class Roll {
         public static List<Person> allmembers = new List<Person>();
         
-        public static String[] Depart = { "COMM", "D&I", "GR", "PRO", "SPA", "ENG", "AD" };
+        public static String[] Depart = { "COMM", "D&I", "GR", "PRO", "SPA", "ENG", "AD" };// names of BOD departments
         public static List<Person>[] Departmembers = new List<Person>[Depart.Length];
         public static void gensList() {
             for (int x = 0; x < Departmembers.Length;x++ )
@@ -61,7 +67,7 @@ namespace BODwebsite
             return x;
         }
     }
-    class Department
+    class Department // represent a BOD department
     {
         String name; 
         public Boolean Frist;
@@ -78,7 +84,7 @@ namespace BODwebsite
             return "\n</tbody>\n</table>\n[/custom_table]\n";
         }
     }
-    class Person 
+    class Person // repersent a person
     {   
        public String Fname,Lname,email,department, role;
        
@@ -108,7 +114,7 @@ namespace BODwebsite
             return str;
         }
     }
-    class IO {
+    class IO {// handles the IO
         public static void load()
         {
             Roll.allmembers = new List<Person>();
