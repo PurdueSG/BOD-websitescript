@@ -5,7 +5,7 @@ using System.Text;
 using System.IO;
 using System.Threading.Tasks;
 
-namespace WindowsFormsApplication1
+namespace BODwebsite
 {
      static class Roll {
         public static List<Person> allmembers = new List<Person>();

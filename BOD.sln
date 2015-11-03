@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{ECD53D8D-4093-4345-A885-186DBF8AB555}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BOD", "WindowsFormsApplication1\BOD.csproj", "{ECD53D8D-4093-4345-A885-186DBF8AB555}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

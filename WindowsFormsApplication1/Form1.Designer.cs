@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication1
+﻿namespace BODwebsite
 {
     partial class Form1
     {
